@@ -1,0 +1,9 @@
+extensions:
+    asset: HeavenProject\AssetLoader\AssetLoaderExtension
+
+asset:
+    publicDir:
+    targetDir:
+
+includes:
+    - config.neon

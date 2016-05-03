@@ -1,0 +1,9 @@
+/composer
+/composer.phar
+/composer.lock
+
+/tests/*/output
+/tests/tmp/*
+!/tests/tmp/.gitkeep
+
+/vendor

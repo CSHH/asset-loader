@@ -1,0 +1,40 @@
+{
+    "name": "heavenproject/asset-loader",
+    "description": "Public asset files loader",
+    "keywords": [
+        "asset",
+        "asset loader",
+        "nette asset loader"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/CSHH/asset-loader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Community of volunteers"
+        }
+    ],
+    "require": {
+        "heavenproject/utils": "~1.0.0",
+        "latte/latte": "~2.3.0",
+        "nette/di": "~2.3.0"
+    },
+    "require-dev": {
+        "kdyby/tester-extras": "dev-master",
+        "mockery/mockery": "~0.9.0",
+        "nette/application": "~2.3.0",
+        "nette/bootstrap": "~2.3.0",
+        "nette/tester": "*",
+        "php-mock/php-mock-mockery": "~1.1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/include"
+        ]
+    }
+}
