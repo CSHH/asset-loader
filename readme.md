@@ -2,6 +2,10 @@
 
 Public asset files loader.
 
+## Installation
+
+`composer require heavenproject/asset-loader`
+
 ## How It Works
 
 Asset Loader is [Latte macro](http://latte.nette.org/en/).
